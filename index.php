@@ -1,9 +1,9 @@
 <?php
 /* --------- CONFIG --------- */
 // Reads from environment vars (set these in Azure → Configuration)
-$DB_HOST = getenv("DB_HOST") ?: "localhost";
-$DB_USER = getenv("DB_USER") ?: "root";
-$DB_PASS = getenv("DB_PASS") ?: "";
+$DB_HOST = getenv("DB_HOST") ?: "php-server1.mysql.database.azure.com";
+$DB_USER = getenv("DB_USER") ?: "user";
+$DB_PASS = getenv("DB_PASS") ?: "Aqib1234";
 $DB_NAME = getenv("DB_NAME") ?: "taskdb";
 
 /* --------- DB CONNECT --------- */
